@@ -347,10 +347,13 @@ a:focus {
 }
 
 .category_section .box .img-box {
-  width: 110px;
-  min-width: 110px;
-  height: 110px;
+  width: 90px;
+  min-width: 90px;
+  height: 900px;
   margin-bottom: 15px;
+  display: flex;
+   justify-content: center;
+  align-items: center;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -367,6 +370,8 @@ a:focus {
 
 .category_section .box .img-box img {
   width: 55px;
+  height: 55px;
+  object-fit: contain;
 }
 
 .category_section .box .detail-box h5 {
